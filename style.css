@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    padding: 5vh 0;
+}
+
+.parameters {
+    display: flex;
+    gap: 3vh;
+}
+
+.paraSet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+input {
+    max-width: 100px;
+}
+
+#sketchContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header, .footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+    background-color: lightgray;
+}
