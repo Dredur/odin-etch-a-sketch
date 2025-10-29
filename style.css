@@ -17,6 +17,7 @@ body {
     align-items: center;
     gap: 4vh;
     padding: 5vh 0;
+    flex: 1;
 }
 
 .parameters {
